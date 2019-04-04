@@ -9,10 +9,11 @@
 
 namespace Audi2014\RepoRequestQuery;
 
+use Audi2014\Repo\AbstractRepo;
 use Audi2014\RequestQuery\RequestQueryInterface;
 use Audi2014\RequestQuery\RequestQueryPageInterface;
 
-abstract class AbstractRepoRequestQuery implements RepoRequestQueryInterface {
+abstract class AbstractRepoRequestQuery extends AbstractRepo implements RepoRequestQueryInterface {
 
     public function fetchQueryPageItems(RequestQueryPageInterface $query): array {
         $sql = <<<MySQL

@@ -12,6 +12,7 @@
   ],
   "require": {
     "php": ">=7.1",
+    "ext-pdo": "*",
     "audi2014/request-query": "^1.0",
     "audi2014/repo": "^1.0"
   },
