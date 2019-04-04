@@ -1,0 +1,24 @@
+{
+  "name": "audi2014/repo-query",
+  "description": "repo",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Perepelytsia, Artur Mykhailovich",
+      "email": "audi2014@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "audi2014/request-query": "^1.0",
+    "audi2014/repo": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Audi2014\\RepoRequestQuery\\": "src/"
+    }
+  },
+  "homepage": "https://github.com/audi2014/php7-repo-query.git"
+}
